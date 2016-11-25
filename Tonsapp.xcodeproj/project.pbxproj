@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40FF2581DE8BD9700A40290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FF2571DE8BD9700A40290 /* AppDelegate.swift */; };
+		F40FF25A1DE8BD9700A40290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40FF2591DE8BD9700A40290 /* ViewController.swift */; };
+		F40FF25D1DE8BD9700A40290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40FF25B1DE8BD9700A40290 /* Main.storyboard */; };
+		F40FF25F1DE8BD9700A40290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40FF25E1DE8BD9700A40290 /* Assets.xcassets */; };
+		F40FF2621DE8BD9700A40290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40FF2601DE8BD9700A40290 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F40FF2541DE8BD9700A40290 /* Tonsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tonsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40FF2571DE8BD9700A40290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F40FF2591DE8BD9700A40290 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F40FF25C1DE8BD9700A40290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F40FF25E1DE8BD9700A40290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40FF2611DE8BD9700A40290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F40FF2631DE8BD9700A40290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40FF2511DE8BD9700A40290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40FF24B1DE8BD9700A40290 = {
+			isa = PBXGroup;
+			children = (
+				F40FF2561DE8BD9700A40290 /* Tonsapp */,
+				F40FF2551DE8BD9700A40290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F40FF2551DE8BD9700A40290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40FF2541DE8BD9700A40290 /* Tonsapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F40FF2561DE8BD9700A40290 /* Tonsapp */ = {
+			isa = PBXGroup;
+			children = (
+				F40FF2571DE8BD9700A40290 /* AppDelegate.swift */,
+				F40FF2591DE8BD9700A40290 /* ViewController.swift */,
+				F40FF25B1DE8BD9700A40290 /* Main.storyboard */,
+				F40FF25E1DE8BD9700A40290 /* Assets.xcassets */,
+				F40FF2601DE8BD9700A40290 /* LaunchScreen.storyboard */,
+				F40FF2631DE8BD9700A40290 /* Info.plist */,
+			);
+			path = Tonsapp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40FF2531DE8BD9700A40290 /* Tonsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F40FF2661DE8BD9700A40290 /* Build configuration list for PBXNativeTarget "Tonsapp" */;
+			buildPhases = (
+				F40FF2501DE8BD9700A40290 /* Sources */,
+				F40FF2511DE8BD9700A40290 /* Frameworks */,
+				F40FF2521DE8BD9700A40290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tonsapp;
+			productName = Tonsapp;
+			productReference = F40FF2541DE8BD9700A40290 /* Tonsapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40FF24C1DE8BD9700A40290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Hilevelsoft;
+				TargetAttributes = {
+					F40FF2531DE8BD9700A40290 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GWH346HETV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F40FF24F1DE8BD9700A40290 /* Build configuration list for PBXProject "Tonsapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40FF24B1DE8BD9700A40290;
+			productRefGroup = F40FF2551DE8BD9700A40290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40FF2531DE8BD9700A40290 /* Tonsapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40FF2521DE8BD9700A40290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40FF2621DE8BD9700A40290 /* LaunchScreen.storyboard in Resources */,
+				F40FF25F1DE8BD9700A40290 /* Assets.xcassets in Resources */,
+				F40FF25D1DE8BD9700A40290 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40FF2501DE8BD9700A40290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40FF25A1DE8BD9700A40290 /* ViewController.swift in Sources */,
+				F40FF2581DE8BD9700A40290 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F40FF25B1DE8BD9700A40290 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40FF25C1DE8BD9700A40290 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F40FF2601DE8BD9700A40290 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F40FF2611DE8BD9700A40290 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F40FF2641DE8BD9700A40290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F40FF2651DE8BD9700A40290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F40FF2671DE8BD9700A40290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GWH346HETV;
+				INFOPLIST_FILE = Tonsapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hilevelsoft.Tonsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F40FF2681DE8BD9700A40290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GWH346HETV;
+				INFOPLIST_FILE = Tonsapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hilevelsoft.Tonsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40FF24F1DE8BD9700A40290 /* Build configuration list for PBXProject "Tonsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40FF2641DE8BD9700A40290 /* Debug */,
+				F40FF2651DE8BD9700A40290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F40FF2661DE8BD9700A40290 /* Build configuration list for PBXNativeTarget "Tonsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40FF2671DE8BD9700A40290 /* Debug */,
+				F40FF2681DE8BD9700A40290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40FF24C1DE8BD9700A40290 /* Project object */;
+}
