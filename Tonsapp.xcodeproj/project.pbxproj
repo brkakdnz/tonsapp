@@ -35,6 +35,7 @@
 		F44B7EBB1DECDCAB004A6B50 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F44B7EBD1DECDF44004A6B50 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		F44B7EBF1DECE1AC004A6B50 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		F48C0B851DED0279004A0644 /* Tonsapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tonsapp.entitlements; sourceTree = "<group>"; };
 		F98CFAF8B4506B886CA30836 /* Pods-Tonsapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tonsapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tonsapp/Pods-Tonsapp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +89,7 @@
 		F40FF2561DE8BD9700A40290 /* Tonsapp */ = {
 			isa = PBXGroup;
 			children = (
+				F48C0B851DED0279004A0644 /* Tonsapp.entitlements */,
 				F44B7EBA1DECDC9C004A6B50 /* Util */,
 				F45F2CB01DE8C08400BFA9BD /* Model */,
 				F45F2CB11DE8C08B00BFA9BD /* View */,
@@ -172,6 +174,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = GWH346HETV;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -389,6 +396,7 @@
 			baseConfigurationReference = E62101E47F774A42ED52AD8C /* Pods-Tonsapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tonsapp/Tonsapp.entitlements;
 				DEVELOPMENT_TEAM = GWH346HETV;
 				INFOPLIST_FILE = Tonsapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -403,6 +411,7 @@
 			baseConfigurationReference = F98CFAF8B4506B886CA30836 /* Pods-Tonsapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tonsapp/Tonsapp.entitlements;
 				DEVELOPMENT_TEAM = GWH346HETV;
 				INFOPLIST_FILE = Tonsapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
