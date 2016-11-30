@@ -90,11 +90,11 @@ class SignInVC: UIViewController {
     }
     
     func completeSignIn(id: String, userData: Dictionary<String, String>) {
-        DataService.ds.createFirebaseDBUser(uid: id, userData: userData)
-        //let keychainResult = KeychainWrapper.setString(id, forKey: KEY_UID)
-        let keychainResult = KeychainWrapper.defaultKeychainWrapper.set(id, forKey: KEY_UID)
-        print("JESS: Data saved to keychain \(keychainResult)")
-        performSegue(withIdentifier: "goToFeed", sender: nil)
+            DataService.ds.createFirbaseDBUser(uid: id, userData: userData)
+            //let keychainResult = KeychainWrapper.setString(id, forKey: KEY_UID)
+            let keychainResult = KeychainWrapper.defaultKeychainWrapper.set(id, forKey: KEY_UID)
+            print("JESS: Data saved to keychain \(keychainResult)")
+            performSegue(withIdentifier: "goToFeed", sender: nil)
     }
 
 }
