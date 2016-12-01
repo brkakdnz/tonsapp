@@ -14,6 +14,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource ,UIIm
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var imageAdd: CircleView!
+    @IBOutlet weak var captionField: FancyField!
     
     var posts = [Post]()
     var imagePicker: UIImagePickerController!
@@ -72,6 +73,7 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource ,UIIm
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         if let image = info[UIImagePickerControllerEditedImage] as? UIImage {
             imageAdd.image = image
+            imageSelected = true
         } else {
             print("BURAK: A valid image wasn't selected")
         }
@@ -79,6 +81,37 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource ,UIIm
     }
     @IBAction func addImagePressed(_ sender: Any) {
         present(imagePicker, animated: true, completion: nil)
+    }
+    
+    @IBAction func postBtnPressed(_ sender: Any) {
+        guard let caption = captionField.text , caption != "" else {
+            print("BURAK: No captions at all")
+            return
+        }
+        
+        guard let img = imageAdd.image else, imageSelected {
+            print("BURAK: Image must be selected")
+            return
+        }
+        
+        if let imgData = UIImageJPEGRepresentation(img, 0.2) {
+            
+            let imgUid = NSUUID().uuidString
+            let metadata = FIRStorageMetadata()
+            metadata.contentType = "image/jpeg"
+            
+            DataService.ds.REF_POST_IMAGES.child(imgUid).put(imgData, metadata: metadata) { (metadata, error) in
+                if error != nil {
+                    print("BURAK: Unable to upload image to Firebasee storage")
+                } else {
+                    print("BURAK: Successfully uploaded image to Firebase storage")
+                    let downloadURL = metadata?.downloadURL()?.absoluteString
+                    if let url = downloadURL {
+                        self.postToFirebase(imgUrl: url)
+                    }
+                }
+            }
+        }
     }
 
     @IBAction func signOutPressed(_ sender: Any) {
